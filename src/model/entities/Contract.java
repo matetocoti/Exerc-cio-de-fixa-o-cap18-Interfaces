@@ -1,6 +1,8 @@
 package model.entities;
 
 //region IMPORTS
+import model.exception.DomainException;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -27,7 +29,12 @@ public class Contract {
 
     }
 
-    public Contract(Integer number, Date date, Double totalValue) {
+    public Contract(Integer number, Date date, Double totalValue){
+        // Programação defensiva
+        if(totalValue <= 0){
+            throw new DomainException("O valor total deve ser maior que 0");
+        }
+
         this.number = number;
         this.date = date;
         this.totalValue = totalValue;
@@ -48,7 +55,18 @@ public class Contract {
         return totalValue;
     }
 
+    public List<Installment> getInstallmentList() {
+        return installmentList;
+    }
 
     //endregion
+
+    public void addInstallment(Installment installment){
+        installmentList.add(installment);
+    }
+
+   public void showingInstalment(){
+        installmentList.forEach(System.out::println);
+   }
 
 }

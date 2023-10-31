@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8ef5fa-34a9-4a82-afe9-0611561c09d9" name="Changes" comment="..">
+    <list default="true" id="1f8ef5fa-34a9-4a82-afe9-0611561c09d9" name="Changes" comment="implementing entities layer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/entities/Contract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/entities/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/entities/Installment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/exception/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/exception/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/services/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/services/OnlinePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/services/OnlinePaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/services/ServiceP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/services/ServiceP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +54,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698644273709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implementing entities layer">
+      <option name="closed" value="true" />
+      <created>1698647620169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698647620169</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +137,7 @@
     <MESSAGE value="just a commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="implementing entities layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing entities layer" />
   </component>
 </project>
